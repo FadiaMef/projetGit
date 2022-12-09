@@ -1,0 +1,50 @@
+body {
+margin: 15px;
+padding: 0;
+background-color: beige;
+}
+body {
+background-color: white; 
+font-family: Verdana, sans-serif; 
+font-size: 100%;
+}
+h1 {
+font-size: 200%; 
+color: rgb(25, 25, 159); 
+text-align: center;
+font-weight: 500;
+padding: 20px;
+}
+h2 {
+font-size: 150%; 
+color: rgb(6, 6, 84); 
+padding-left: 15px;
+padding: 20px;
+}
+p {
+color: rgb(6, 6, 128);
+}
+img {
+border-radius: 10px;
+width: 450px;
+justify-items: end;
+}
+
+
+/* p,ul,li,td {
+color: black; 
+}
+a:link {
+color: green;
+text-decoration: underline;
+}
+a:visited {
+color: gray;
+}
+a:hover {
+color: red;
+text-decoration: none;
+}
+a:active, a:focus {
+color: red;
+} */
