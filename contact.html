@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
 </head>
 <body>
-    
+    <h1>Formulaire de contact</h1>
+    <div id='nouscontacter'>
+        <form action='' class='form'>
+            <p class='field required half'>
+                <label class='label required' for='name'>Prenom</label>
+                <input class='text-input' id='name' name='prenom' required type='text'>
+            </p>
+            <p class='field required half'>
+                <label class='label required' for='name'>Nom</label>
+                <input class='text-input' id='name' name='nom' required type='text'>
+            </p>
+            <p class='field required half'>
+                <label class='label' for='email'>Email</label>
+                <input class='text-input' id='email' name='email' required type='email'>
+            </p>
+            <p class='field'>
+                <label class='label' for='message'>Message</label>
+                <textarea class='textarea' cols='50' id='message' name='message' required rows='4'></textarea>
+            </p>
+            <p class='field'>
+                <input class='button' type='submit' value='Envoyer'>
+            </p>
+        </form>
+    </div>
+      
 </body>
 </html>
